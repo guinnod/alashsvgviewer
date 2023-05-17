@@ -86,7 +86,7 @@ function loadScript(path, loadedCallback, errorCallback) {
     script.onreadystatechange = handleReadyStateChange;
     script.onerror = handleError;
     script.src = path;
-    document.body.appendChild(script);
+   // document.body.appendChild(script);
 }
 
 var downloadCppStarted = false;
